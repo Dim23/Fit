@@ -1,6 +1,6 @@
 # Quick information with step-by-step instruction.
 
-To start the fitting process, run `GammaFit/.C` :
+To start the fitting process, run `GammaFit.C` :
 
     root -b GammaFit.C(fileadres, current_mult, outadres, minNch)
 
