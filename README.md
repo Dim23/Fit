@@ -6,19 +6,18 @@ To start the fitting process, run `GammaFit/.C` :
 
 Where the arguments are:
 
- `fileadres` - input root file.
+`fileadres` - input root file.
 
- `current_mult` - TH1D Histogram with multiplisity.
+`current_mult` - TH1D Histogram with multiplisity.
 
- `outadres` - output file from fitting process.
+`outadres` - output file from fitting process.
 
- `minNch` - lower value of the fitting area ( `25` by default).
+`minNch` - lower value of the fitting area ( `25` by default).
 
 ### OUTPUT
 
-    Resulting file contains TCanvas showing fit results and data-to-fit ratio - `data fit result` .
+Resulting file contains TCanvas showing fit results and data-to-fit ratio - `data fit result` .
 
-    The resulting fit function of the multiplicity distribution - `fit_func` .
+The resulting fit function of the multiplicity distribution - `fit_func` .
 
-    TGraphErrors of impact parametr as a function of centrality - `fit_B_Mean` .
-
+TGraphErrors of impact parametr as a function of centrality - `fit_B_Mean` .
